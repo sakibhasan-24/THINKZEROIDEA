@@ -1,0 +1,48 @@
+body {
+  font-family: "Noto Serif", serif;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1900px;
+  height: 808px;
+  background-image: url("/images/banner/banner3.png");
+  background-size: cover;
+}
+.header-content {
+  width: 800px;
+  margin-left: 420px;
+  padding: 210px 100px 445px 350px;
+}
+.header-title {
+  width: 525px;
+  color: #fff;
+  text-align: right;
+  font-size: 65px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+.header-text {
+  width: 494px;
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.header-btn {
+  border-radius: 5px;
+  background: #fff;
+  color: #005fac;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 21px 25px 20px 26px;
+  outline: none;
+  border: 0;
+  margin-left: 350px;
+  margin-top: 32px;
+  margin-bottom: 30px;
+}
