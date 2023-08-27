@@ -46,3 +46,44 @@ header {
   margin-top: 32px;
   margin-bottom: 30px;
 }
+
+main {
+  margin: 120px 200px;
+}
+.failure-section {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.img-section img {
+  width: 451px;
+}
+.failure-text-section {
+  margin-left: 100px;
+}
+.failure-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  width: 300px;
+}
+.failure-text {
+  margin-top: 24px;
+  margin-bottom: 10px;
+  width: 440px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+ul li {
+  list-style: none;
+  margin-top: 16px;
+  margin-right: 100px;
+}
+li::before {
+  content: "✔️";
+  margin-right: 10px;
+}
