@@ -143,3 +143,34 @@ li::before {
   font-size: 25px;
   font-weight: 500;
 } */
+
+.positive-mind {
+  width: 100%;
+  height: 60vh;
+  border-radius: 8px;
+  /* background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%); */
+
+  background-image: url("images/gradient1.png"), url("images/watch.png");
+  background-repeat: no-repeat;
+}
+
+.positive-mind h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+.positive-mind-text {
+  padding: 60px 600px 140px 70px;
+}
+.positive-mind-text button {
+  border-radius: 5px;
+  border: 0;
+  color: #005fac;
+  padding: 15px;
+  cursor: pointer;
+}
+.positive-mind-text button:hover {
+  color: #fff;
+  background-color: #12f1513f;
+}
