@@ -8,7 +8,7 @@ header {
   justify-content: space-between;
   max-width: 1900px;
   height: 808px;
-  background-image: url("./images/banner/banner3.png");
+  background-image: url("images/banner/banner3.png");
   background-size: cover;
 }
 .header-content {
